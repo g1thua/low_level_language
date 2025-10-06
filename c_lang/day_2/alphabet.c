@@ -2,18 +2,17 @@
 
 int main(void)
 {
-    char alphabets = 'a';
+    char alpha;
 
-    while(alphabets < 'z')
-    {
-        putchar(alphabets);
-        alphabets++;
-        
-    }
+    for (alpha = 'a'; alpha <= 'z'; alpha++)
+        putchar(alpha);
+
     
+    for (alpha = 'A';alpha <= 'Z'; alpha++)
+        putchar(alpha);
+
     putchar('\n');
 
     return 0;
-
 
 }
