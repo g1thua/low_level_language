@@ -2,15 +2,15 @@
 
 int main(void)
 {
-    char alpha;
+    char alpha = 'z';
 
-    for (alpha = 'a'; alpha <= 'z'; alpha++)
+    while(alpha >= 'a')
+    {
         putchar(alpha);
+        alpha --;
 
-    
-    for (alpha = 'A';alpha <= 'Z'; alpha++)
-        putchar(alpha);
 
+    }    
     putchar('\n');
 
     return 0;
